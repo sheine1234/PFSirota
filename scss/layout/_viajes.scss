@@ -1,0 +1,14 @@
+.container {
+    position: relative;
+    .button-overlay {
+      position: absolute;
+      bottom: 20px; // Ajusta la distancia desde la parte inferior según sea necesario
+      left:8%;
+    }
+    .pag{
+      padding-left: 30px;
+      text-align: left;
+    }
+  }
+  
+  
