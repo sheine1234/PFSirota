@@ -121,51 +121,26 @@ footer .fa-brands {
   object-fit: cover;
 }
 
-/* nuestros progrmas */
-.card {
-  border-color: #D9573C;
-  text-align: center;
-  overflow: hidden;
-}
-.card h2.text-center {
-  margin: 10px;
-  border-bottom: 1px solid #D9573C;
-}
-.card .card img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-}
-.card .card img:hover {
-  object-fit: cover;
-  width: 110%;
-  height: 100%;
-}
-.card .card-title,
-.card .card-text {
-  color: #191E3A;
-}
-
-.card {
+.container .card {
   max-height: 700px;
   border-color: #D9573C;
   text-align: center;
   overflow: hidden;
 }
-.card h2.text-center {
+.container .card h2.text-center {
   margin: 10px;
   border-bottom: 1px solid #D9573C;
 }
-.card img {
+.container .card img {
   width: 100%;
   height: 100%;
   object-fit: cover;
 }
-.card img:hover {
+.container .card img:hover {
   object-fit: cover;
   width: 110%;
 }
-.card:hover img {
+.container .card:hover img {
   width: 110%;
 }
 
