@@ -15,7 +15,6 @@
 // Mixin para cards
 @mixin custom-card-styles($border-color, $text-color, $hover-color) {
     .card {
-      max-height: 700px;
       border-color: $border-color;
       text-align: center;
       overflow: hidden;
@@ -27,6 +26,7 @@
         width: 100%;
         height: 100%;
         object-fit: cover;
+        transition: 0.5s;
         &:hover {
           object-fit: cover;
           width: 110%;
